@@ -1,18 +1,11 @@
-<script lang="ts">
 
-    let count = $state(0);
+<h2 class="text-2xl font-semibold mb-4">Welcome to Music</h2>
+<p class="mb-4">
+  This is some example content. Feel free to replace this with your own components or markup.
+</p>
 
-    function increment () {
-        count += 1;
-    }
-
-</script>
-
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-
-<button on:click={increment} class="h-[60px] w-[100px] bg-gray-500">
-    Klicks: {count}
-</button>
-
- 
+<ul class="space-y-2">
+  <li>Item One</li>
+  <li>Item Two</li>
+  <li>Item Three</li>
+</ul>

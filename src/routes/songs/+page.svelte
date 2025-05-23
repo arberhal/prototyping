@@ -1,0 +1,31 @@
+<script lang="ts">
+  import { page } from '$app/state';
+  const songs = $derived(page.data.songs ?? []);
+</script>
+
+<div
+  class="
+    fixed top-16 bottom-0 right-0 left-[calc(25%+8px)] m-2 rounded-xl bg-black px-4 sm:px-6 md:px-8 text-white overflow-hidden">
+  <div class="h-full overflow-y-auto mt-6 md:mt-8 pr-2 scrollbar-hide">
+    <div class="mb-8 md:mb-10">
+      <div class="mb-3 md:mb-4 flex items-center justify-between">
+        <h2 class="text-xl md:text-2xl font-bold">Trending Songs</h2>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4 pb-4">
+        {#each songs as song (song._id)}
+          <div class="w-full">
+            <div class="mb-2 aspect-square overflow-hidden rounded-md">
+              <img
+                src={'/images/' + song.photo}
+                alt={'Cover von ' + song.song_name}
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <h4 class="truncate text-sm font-medium">{song.song_name}</h4>
+            <p class="truncate text-xs text-gray-400">{song.artist_name}</p>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </div>
+</div>

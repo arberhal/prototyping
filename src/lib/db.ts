@@ -31,17 +31,12 @@ export async function createArtist(data) {
   return db.collection("artists").insertOne(data);
 }
 
-export async function updateArtist(id, data) {
-  const db = await connect();
-  return db.collection("artists").updateOne({ _id: Number(id) }, { $set: data });
-}
-
 export async function deleteArtist(id) {
   const db = await connect();
   return db.collection("artists").deleteOne({ _id: Number(id) });
 }
 
-export async function getRandomArtists(limit = 6) {
+export async function getRandomArtists(limit = 12) {
   const db = await connect();
   return db.collection("artists").aggregate([{ $sample: { size: limit } }]).toArray();
 }
@@ -70,26 +65,11 @@ export async function createSong(data) {
   });
 }
 
-export async function updateSong(id, data) {
-  const db = await connect();
-  return db.collection("songs").updateOne(
-    { _id: Number(id) },
-    {
-      $set: {
-        song_name: data.song_name,
-        artist_id: data.artist_id,
-        photo: data.photo || "noimage.jpg"
-      }
-    }
-  );
-}
-
 export async function deleteSong(id) {
   const db = await connect();
   return db.collection("songs").deleteOne({ _id: Number(id) });
 }
 
-// ✅ NEU: Songs mit zugehörigem Artist direkt über $lookup
 export async function getRandomSongsWithArtist(limit = 6) {
   const db = await connect();
   return db.collection("songs").aggregate([
@@ -114,4 +94,30 @@ export async function getRandomSongsWithArtist(limit = 6) {
       }
     }
   ]).toArray();
+}
+
+export async function getSongsWithArtist() {
+  const db = await connect();
+
+  return db
+    .collection('songs')
+    .aggregate([
+      {
+        $lookup: {
+          from: 'artists',            
+          localField: 'artist_id',    
+          foreignField: '_id',        
+          as: 'artist'                
+        }
+      },
+      { $unwind: { path: '$artist', preserveNullAndEmptyArrays: true } },
+      {
+        $addFields: {
+          artist_name: '$artist.artist_name',
+          artist_photo: '$artist.photo'   
+        }
+      },
+      { $project: { artist: 0 } }    
+    ])
+    .toArray();
 }

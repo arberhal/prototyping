@@ -1,6 +1,6 @@
 import { getRandomSongsWithArtist, getRandomArtists } from '$lib/db';
 
-/** @type {import('./$types').PageServerLoad} */
+
 export async function load() {
   
     const songs = await getRandomSongsWithArtist(12);

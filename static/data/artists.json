@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 1, 
+    "artist_name": "Keinemusik",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 2,
+    "artist_name": "Solomun",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 3,
+    "artist_name": "Boris Brejcha",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 4,
+    "artist_name": "Peggy Gou",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 5,
+    "artist_name": "Charlotte de Witte",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 6,
+    "artist_name": "Adam Beyer",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 7,
+    "artist_name": "Disclosure",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 8,
+    "artist_name": "Nina Kraviz",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 9,
+    "artist_name": "Jamie Jones",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 10,
+    "artist_name": "Amelie Lens",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 11,
+    "artist_name": "Carl Cox",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 12,
+    "artist_name": "Fisher",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 13,
+    "artist_name": "Tale Of Us",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 14,
+    "artist_name": "CamelPhat",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 15,
+    "artist_name": "Paul Kalkbrenner",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 16,
+    "artist_name": "Black Coffee",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 17,
+    "artist_name": "Loco Dice",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 18,
+    "artist_name": "Honey Dijon",
+    "genre": "House",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 19,
+    "artist_name": "Sven Väth",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 20,
+    "artist_name": "Maceo Plex",
+    "genre": "Techno",
+    "photo": "noimage.jpg"
+  }
+]

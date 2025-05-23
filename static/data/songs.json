@@ -1,0 +1,362 @@
+[
+  {
+    "_id": 101,
+    "song_name": "Mutant Flower",
+    "artist_id": 1,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 102,
+    "song_name": "Driving Home",
+    "artist_id": 1,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 103,
+    "song_name": "Don't Be Afraid",
+    "artist_id": 1,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 104,
+    "song_name": "Kackvogel",
+    "artist_id": 2,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 105,
+    "song_name": "Around",
+    "artist_id": 2,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 106,
+    "song_name": "Customer Is King",
+    "artist_id": 2,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 107,
+    "song_name": "House Music",
+    "artist_id": 3,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 108,
+    "song_name": "Gravity",
+    "artist_id": 3,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 109,
+    "song_name": "Darkness",
+    "artist_id": 3,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 110,
+    "song_name": "Starry Night",
+    "artist_id": 4,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 111,
+    "song_name": "It Goes Like (Nanana)",
+    "artist_id": 4,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 112,
+    "song_name": "Jigoo",
+    "artist_id": 4,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 113,
+    "song_name": "Rave On Time",
+    "artist_id": 5,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 114,
+    "song_name": "Remember",
+    "artist_id": 5,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 115,
+    "song_name": "Liquid Slow",
+    "artist_id": 5,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 116,
+    "song_name": "Teach Me",
+    "artist_id": 6,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 117,
+    "song_name": "Your Mind",
+    "artist_id": 6,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 118,
+    "song_name": "Love Me",
+    "artist_id": 6,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 119,
+    "song_name": "Latch (feat. Sam Smith)",
+    "artist_id": 7,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 120,
+    "song_name": "White Noise (feat. AlunaGeorge)",
+    "artist_id": 7,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 121,
+    "song_name": "Omen (feat. Sam Smith)",
+    "artist_id": 7,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 122,
+    "song_name": "Ghetto Kraviz",
+    "artist_id": 8,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 123,
+    "song_name": "I'm Gonna Get You",
+    "artist_id": 8,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 124,
+    "song_name": "Pain In The Ass",
+    "artist_id": 8,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 125,
+    "song_name": "My Paradise",
+    "artist_id": 9,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 126,
+    "song_name": "Aqua",
+    "artist_id": 9,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 127,
+    "song_name": "Bugging",
+    "artist_id": 9,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 128,
+    "song_name": "Higher",
+    "artist_id": 10,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 129,
+    "song_name": "Access",
+    "artist_id": 10,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 130,
+    "song_name": "In Silence",
+    "artist_id": 10,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 131,
+    "song_name": "I Want You (Forever)",
+    "artist_id": 11,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 132,
+    "song_name": "Ohh La La",
+    "artist_id": 11,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 133,
+    "song_name": "The Latin Theme",
+    "artist_id": 11,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 134,
+    "song_name": "Losing It",
+    "artist_id": 12,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 135,
+    "song_name": "Just Feels Tight",
+    "artist_id": 12,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 136,
+    "song_name": "You Little Beauty",
+    "artist_id": 12,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 137,
+    "song_name": "Distant Past",
+    "artist_id": 13,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 138,
+    "song_name": "Never fear, Never tell",
+    "artist_id": 13,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 139,
+    "song_name": "Notte Eterna",
+    "artist_id": 13,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 140,
+    "song_name": "Cola",
+    "artist_id": 14,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 141,
+    "song_name": "Panic Room",
+    "artist_id": 14,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 142,
+    "song_name": "Breathe",
+    "artist_id": 14,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 143,
+    "song_name": "Sky and Sand",
+    "artist_id": 15,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 144,
+    "song_name": "Aaron",
+    "artist_id": 15,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 145,
+    "song_name": "Bing",
+    "artist_id": 15,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 146,
+    "song_name": "Drive (feat. David Guetta)",
+    "artist_id": 16,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 147,
+    "song_name": "Your Eyes (feat. Damaris)",
+    "artist_id": 16,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 148,
+    "song_name": "Superman (feat. Bucie)",
+    "artist_id": 16,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 149,
+    "song_name": "Seeing Through Shadows",
+    "artist_id": 17,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 150,
+    "song_name": "Love Boat",
+    "artist_id": 17,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 151,
+    "song_name": "Roots",
+    "artist_id": 17,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 152,
+    "song_name": "Thrive (feat. Cor.Ece)",
+    "artist_id": 18,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 153,
+    "song_name": "Houze",
+    "artist_id": 18,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 154,
+    "song_name": "La Femme Fantastique",
+    "artist_id": 18,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 155,
+    "song_name": "Ritual of Life",
+    "artist_id": 19,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 156,
+    "song_name": "Electrica Salsa",
+    "artist_id": 19,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 157,
+    "song_name": "Komodo (Club Mix)",
+    "artist_id": 19,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 158,
+    "song_name": "Conjure Dreams",
+    "artist_id": 20,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 159,
+    "song_name": "Soleil",
+    "artist_id": 20,
+    "photo": "noimage.jpg"
+  },
+  {
+    "_id": 160,
+    "song_name": "Mutant Romance",
+    "artist_id": 20,
+    "photo": "noimage.jpg"
+  }
+]

@@ -6,6 +6,7 @@
 </script>
 
 <Header />
+
 <NavBar />
 <main class="ml-[25%] p-4 pt-16">
 	{@render children()}

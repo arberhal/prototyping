@@ -7,7 +7,7 @@
 <div
   class="
     fixed top-16 bottom-0 right-0 left-[calc(25%+8px)] m-2 rounded-xl  bg-black px-4 sm:px-6 md:px-8 text-white overflow-hidden">
-  <div class="mt-6 md:mt-8 pr-2 flex gap-8">
+  <div class="mt-6 md:mt-8 pr-2 flex gap-8 flex flex-col md:flex-row">
     <div class="aspect-square w-full max-w-[500px] overflow-hidden rounded-xl">
               <img
                 src={'/images/' + artist.photo}

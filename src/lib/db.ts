@@ -12,10 +12,7 @@ async function connect() {
   return db;
 }
 
-// =========================
-// Artists (1:n zu Songs)
-// =========================
-
+//Artists
 export async function getArtists() {
   const db = await connect();
   return db.collection("artists").find().toArray();
@@ -31,9 +28,14 @@ export async function createArtist(data) {
   return db.collection("artists").insertOne(data);
 }
 
-export async function deleteArtist(id) {
-  const db = await connect();
-  return db.collection("artists").deleteOne({ _id: Number(id) });
+export async function updateArtist(
+	_id: number,
+	data: { artist_name?: string; genre?: string; photo?: string }
+) {
+	const db = await connect();
+	return db
+		.collection('artists')
+		.updateOne({ _id }, { $set: data });
 }
 
 export async function getRandomArtists(limit = 12) {
@@ -41,9 +43,7 @@ export async function getRandomArtists(limit = 12) {
   return db.collection("artists").aggregate([{ $sample: { size: limit } }]).toArray();
 }
 
-// =========================
-// Songs (inkl. photo-Feld)
-// =========================
+//songs
 
 export async function getSongs() {
   const db = await connect();
@@ -69,6 +69,9 @@ export async function deleteSong(id) {
   const db = await connect();
   return db.collection("songs").deleteOne({ _id: Number(id) });
 }
+
+
+//joins
 
 export async function getRandomSongsWithArtist(limit = 6) {
   const db = await connect();
